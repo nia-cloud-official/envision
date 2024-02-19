@@ -419,19 +419,21 @@
                             <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Register</p>
                             <h1 class="display-5 mb-5">Become a Member</h1>
                         </div>
+                        <form action="./emails/index.php" method="post">
                         <div class="row g-3">
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="mail" name="email" placeholder="Your Email">
                                     <label for="mail">Your Email</label>
                                 </div>
                             </div>
+                        </form>
 
                             
                             <div class="col-12 text-center">
